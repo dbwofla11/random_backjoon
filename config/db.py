@@ -1,14 +1,10 @@
-import os 
-from dotenv import load_dotenv
-load_dotenv()
-
 import pymysql
 
 conn = pymysql.connect(
     user='root',
-    passwd = os.environ.get('db_pw'), 
+    passwd = 'm8161516', 
     host ='127.0.0.1', 
-    db = 'open_source', 
+    db = 'random_problem', 
     charset ='utf8'
 )
 
