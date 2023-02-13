@@ -1,2 +1,5 @@
-import fastapi
+# 스크래핑 한거 긁어서 텍스트 파일 만들기
+# chat_gpt 자동화에 쓸거 
+
+
 

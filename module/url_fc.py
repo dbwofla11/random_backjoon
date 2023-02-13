@@ -1,5 +1,4 @@
-import pymysql 
-
+from config.db import conn
 
 url_base = "https://www.acmicpc.net/problem/"
 ps_number = [str(i) for i in range(1001,20000)]
